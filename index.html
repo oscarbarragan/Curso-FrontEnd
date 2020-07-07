@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto curso html y css</title>
+    <!--se importa font awesome-->
+    <script src="https://kit.fontawesome.com/eb0b6f8b1a.js" crossorigin="anonymous"></script>  
+    <!--se importa fuente roboto de gogole fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <!--se importa estilos propios-->
+      <link rel="stylesheet" href="assets/css/style.css">
+        <!--se importa media querys-->
+    <link rel="stylesheet" href="assets/css/mobile.css">
+</head>
+<body>
+    <!--Header de la pagina-->
+    <header>
+        <div class="contenedor">
+            <img class="img-logo" src="assets/img/Logo.png" alt="">
+            <h1>Tecnocomp</h1>
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar"><i class="fas fa-bars"></i></label>
+            <nav class="menu">
+                <a href="#">Inicio</a>
+                <a href="#bienvenidos">Servicios</a>
+                <a href="#info">Servicios Adicionales</a>
+                <a href="#team">Equipo</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>    
+    <main>
+        <!--Banner publicitario-->
+        <section id="banner">
+            <img src="assets/img/Background.png" alt="">
+            <div class="contenedor">
+                <h2>Servicios tecnológicos y mucho más</h2>
+                <p>Es un gusto poder atenderlo</p>
+                <a href="#bienvenidos">Leer más</a>
+            </div>            
+        </section>
+        <!--Banner publicitario-->
+        <section id="bienvenidos">
+            <div class="contenedor">
+                <h2>Bienvenidos a TecnoComp</h2>
+                <p>Ofrecemos servicios de desarrollo para sistemas de ventas y transacciones electrónicas, incorporando las mejores prácticas de desarrollo y tendencias actuales. Hacemos de su ecommerce el sitio más visitado, consulta nuestro catálogo de precios</p>            
+            </div>
+           </section>
+         <!--Seccion servicios-->
+        <section id="servicios">
+            <h3>Nuestro portafolio de servicios</h3>
+            <div class="contenedor">
+                <article>
+                    <img src="assets/img/Banner1.png" alt="">
+                    <h4>Diseño de paginas web</h4>
+                </article>
+                <article>
+                    <img src="assets/img/Banner2.png" alt="">
+                    <h4>Integración con servicios</h4>
+                </article>
+                <article>
+                    <img src="assets/img/Banner3.png" alt="">
+                    <h4>Responsive design</h4>
+                </article>               
+            </div>
+        </section>
+        <!--Seccion información-->
+        <section id="info">
+            <h3>Servicios adicionales</h3>
+            <div class="contenedor">
+                <div class="info">
+                    <img src="assets/img/Banner4.png" alt="">
+                    <h4>Generación de Apps</h4>
+                </div>
+                <div class="info">
+                    <img src="assets/img/Banner5.png" alt="">
+                    <h4>Código moderno  </h4>
+                </div>
+                <div class="info">
+                    <img src="assets/img/Banner6.png" alt="">
+                    <h4>Almacenamiento en la nube</h4>
+                </div>
+                <div class="info">
+                    <img src="assets/img/Banner7.png" alt="">
+                    <h4>Integración con redes sociales</h4>
+                </div>
+            </div>
+        </section>
+        <!--Seccion Team-->
+        <section id="team">
+            <h2>Equipo de trabajo</h2>
+            <div class="contenedor">
+                <div class="equipo">
+                    <img src="assets/img/1.jpg" alt="">
+                    <h4>Ana Diaz</h4>
+                    <h5>Líder de Diseño</h5>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="equipo">
+                    <img src="assets/img/2.jpg" alt="">
+                    <h4>Carlos Perez</h4>
+                    <h5>Desarrollador Senior</h5>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="equipo">
+                    <img src="assets/img/3.jpg" alt="">
+                    <h4>Laura Wan</h4>
+                    <h5>Ejecutiva Comercial</h5>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--Seccion contacto-->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="contenedor">
+                <div class="contacto1">
+                    <input class="input-form" type="text" placeholder="Nombre" name="nombre">
+                    <input class="input-form" type="text" placeholder="Email" name="email">
+                    <input class="input-form" type="text" placeholder="Teléfono" name="telefono">
+                </div>
+                <div class="contacto2">
+                    <textarea class="input-form" id="mensaje" name="comentarios" rows="10" cols="40" placeholder="Mensaje"></textarea>
+                </div>                             
+            </div>    
+            <div class="btn-enviar">
+                <input id="boton-enviar" type="button" value="Enviar mensaje">
+            </div>          
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="contenedor">
+            <p class="copy">Tecnocomp &copy; 2020</p>
+            <div class="sociales">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
